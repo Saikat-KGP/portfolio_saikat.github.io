@@ -1,0 +1,25 @@
+.about{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    padding-top: 100px;
+    
+    /* margin: 50px; */
+}
+*{
+    background-color: rgb(38, 24, 66);
+    color: white;
+    font-family:sans-serif;
+}
+.about-content{
+    margin-left: 30px;
+}
+.btn{
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 3rem;
+}
+.btn:hover{
+    color: blanchedalmond;
+    background-color: brown;
+}

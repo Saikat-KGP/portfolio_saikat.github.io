@@ -1,0 +1,122 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+
+
+nav:hover{
+    background-color: aqua;
+    color: rgb(109, 160, 42);
+}
+nav:hover::before{
+    background-color: aqua;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background: transparent;
+    
+}
+*{
+    background-color: rgb(38, 24, 66);
+    color: white;
+    font-family:sans-serif;
+    /* background-image: url(photo-1519794206461-cccd885bf209.avif); */
+}
+
+.home{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 80px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+.home-content h3{
+    font-weight: 700;
+    font-size: 3.2rem;
+}
+
+.home-content h1{
+    font-weight: 700;
+    font-size: 5.6rem;
+    line-height: 1.3;
+}
+.home-content span{
+    font-weight: 500;
+    font-size: 2.8rem;
+    line-height:0.8;
+}
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.btn{
+    display: inline-block;
+    padding:1rem 3rem;
+    border-radius: 4rem;
+    background-color: cornsilk;
+
+}
+
+.btn:hover{
+    box-shadow: none;
+    color: burlywood;
+    background-color: aquamarine;
+}
+
+.home-img-new{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 400px;
+}
+/* .profession-container{
+    position:static;
+    top:100%;
+    transform: translateY(-50%);
+    width:500px;
+    height:500px;
+    background: red;
+    overflow:hidden;
+    pointer-events: none;
+    /* padding-top: 90px;
+    padding-left: 50px; */
+    /* margin-left: 200px;
+    margin-top: 300px; */
+
+
+/* 
+.profession-container .profession-box{
+    position: absolute;
+    top:0;
+    right:0;
+    width:768px;
+    height:768px;
+    background: purple;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profession-box .profession{
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-items:center;
+    flex-direction: column;
+    transform:rotate(calc(360deg/4*var(--i)));
+    transform-origin:384px;
+}
+
+.home .profession i{
+    font-size: 3.8rem;
+
+}
+
+.profesion h3{
+    font-size: 3.5rem;
+} */ 

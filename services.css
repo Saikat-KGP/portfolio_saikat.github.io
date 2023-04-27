@@ -1,0 +1,28 @@
+*{
+    background-color: rgb(38, 24, 66);
+    color: white;
+    font-family:sans-serif;
+}
+.services{
+    justify-content: center;
+    display: flex;
+}
+.services h2{
+    margin-bottom: 5rem;
+
+}
+
+.services-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+.heading{
+    align-items: center;
+
+
+}
